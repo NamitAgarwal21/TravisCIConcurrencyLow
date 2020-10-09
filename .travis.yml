@@ -9,7 +9,7 @@ env:
 jobs:
   include:
   - os: freebsd
-    dist: freebsd
+    dist: linux
     before_install:
       - freebsd-version
     name: FreeBSD
