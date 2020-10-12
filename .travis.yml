@@ -2,14 +2,5 @@ jobs:
  include:
  - os: freebsd
  - os: linux
-   before_install:
-     - echo done
-   before_script:
-     - echo done
  - os: windows
-   arch: amd64
  - os: osx
-   before_install:
-    - echo done
-   before_script:
-    - echo done
