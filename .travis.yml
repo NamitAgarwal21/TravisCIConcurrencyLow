@@ -1,17 +1,17 @@
 jobs:
-include:
+ include:
 - os: freebsd
 language: python
 - os: linux
 language: generic
 before_install:
-- echo done
+ - echo done
 before_script:
-- echo done
+ - echo done
 - os: windows
 arch: amd64
 - os: osx
 before_install:
-- echo done
+ - echo done
 before_script:
-- echo done
+ - echo done
