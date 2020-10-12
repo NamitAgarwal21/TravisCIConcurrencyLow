@@ -1,17 +1,4 @@
-jobs:
- include:
-- os: freebsd
-language: python
-- os: linux
-language: generic
-before_install:
- - echo done
-before_script:
- - echo done
-- os: windows
+language: python 
+os: linux 
 arch: amd64
-- os: osx
-before_install:
- - echo done
-before_script:
- - echo done
+dist: xenial
