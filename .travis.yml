@@ -4,3 +4,4 @@ jobs:
  - os: linux
  - os: windows
  - os: osx
+ - os: linux
